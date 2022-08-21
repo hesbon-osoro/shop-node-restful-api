@@ -1,0 +1,16 @@
+{
+	"name": "shop-node-restful-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"mongoose": "^6.5.2"
+	}
+}
