@@ -47,10 +47,6 @@ router.patch(
 	ProductsController.products_update_product
 );
 
-router.delete(
-	'/:productId',
-	checkAuth,
-	ProductsController.products_delete_product
-);
+router.delete('/:productId', checkAuth, ProductsController.products_delete);
 
 module.exports = router;
